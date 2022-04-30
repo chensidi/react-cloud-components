@@ -1,0 +1,25 @@
+{
+  "name": "jc-components-react",
+  "version": " 0.0.0",
+  "main": "./dist/JcLib.es.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd-mobile": "^5.0.0-rc.12",
+    "axios": "^0.25.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.2",
+    "@vitejs/plugin-react": "^1.0.7",
+    "acorn-jsx": "^5.3.2",
+    "rollup-plugin-svg": "^2.0.0",
+    "sass": "^1.45.2",
+    "vite": "^2.7.2"
+  }
+}

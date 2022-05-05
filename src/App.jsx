@@ -5,6 +5,7 @@ import { useSearch } from './hooks'
 
 import Comment from '../components/cloud-music-comment'
 import MV from '../components/cloud-music-mv'
+import { MiniBar, PlayPanel } from '../components/cloud-music-audio-player'
 
 function App() {
   const cmtRef = useRef()
@@ -47,6 +48,8 @@ function App() {
       <Comment ref={cmtRef} id={cid} />
       <MV ref={mvRef} />
       <Button onClick={clickHandler}>显示MV</Button>
+      <MiniBar id={188261} />
+      <PlayPanel id={188261} />
     </div>
   )
 }
